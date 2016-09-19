@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Email</title>
+<meta name="viewport" charset ="UTF-8" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Email</a>
+    </div>
+    <ul class="nav navbar-nav" style="float:right">
+      <li class="dropdown  active">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Conta
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="index.html">Logout</a></li> 
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<body background="assets/images/bg-tela-email.jpg">
+<div class="container">
+
+
+
+ 
+
+
+<br><br><br><br>
+<button type="button" class="btn btn-success" data-toggle="modal" data-target="#escreverEmail">
+                    Escrever</button>
+<button type="button" class="btn btn-warning glyphicon glyphicon-refresh" data-toggle="modal" data-target="#sincronizarEmail"></button>
+
+<br><br>
+
+
+<table style="
+    BACKGROUND-COLOR: ghostwhite;
+"
+class="table table-bordered table-striped table-hover">
+  <tr>
+   
+		<th>
+		  <center>Nome
+		  </center>
+		</th>
+     
+		<th>
+			<center>Assunto
+			</center>
+		</th>
+      
+		<th>
+			<center>Data
+			</center>
+		</th>
+
+		<th>
+			<center>Ação
+			</center>
+		</th>
+	
+  </tr>
+  <tr>
+      
+	  <td data-toggle="modal" data-target="#abrirEmail">
+		<center>Fernanda
+		</center>
+	  </td>
+      <td data-toggle="modal" data-target="#abrirEmail">
+		<center>Sono
+		</center>
+	  </td>
+      <td data-toggle="modal" data-target="#abrirEmail">
+		<center>16/09/2016 00:19
+		</center>
+	  </td>
+	  
+	  <td>		
+		<center>
+			<button href="#deletarEmail"  type="button" class="btn btn-danger btn-sm glyphicon glyphicon-trash" data-toggle="modal"></button>
+			<button href="#responderEmail"  type="button" class="btn btn-danger btn-sm glyphicon glyphicon-share-alt" data-toggle="modal"></button>
+		</center>
+	  </td>
+  </tr>
+ 
+  <tr>
+ 
+	  <td data-toggle="modal" data-target="#abrirEmail">
+		<center>Fernanda
+		</center>
+	  </td>
+      <td data-toggle="modal" data-target="#abrirEmail">
+		<center>Sono
+		</center>
+	  </td>
+      <td data-toggle="modal" data-target="#abrirEmail">
+		<center>16/09/2016 00:19
+		</center>
+	  </td>
+	  
+	  <td>		
+		<center>
+			<button href="#deletarEmail"  type="button" class="btn btn-danger btn-sm glyphicon glyphicon-trash" data-toggle="modal"></button>
+			<button href="#responderEmail"  type="button" class="btn btn-danger btn-sm glyphicon glyphicon-share-alt" data-toggle="modal"></button>
+		</center>
+	  </td>
+  </tr>
+ 
+ <tr>
+      
+	  <td data-toggle="modal" data-target="#abrirEmail">
+		<center>Fernanda
+		</center>
+	  </td>
+      <td data-toggle="modal" data-target="#abrirEmail">
+		<center>Sono
+		</center>
+	  </td>
+      <td data-toggle="modal" data-target="#abrirEmail">
+		<center>16/09/2016 00:19
+		</center>
+	  </td>
+	  
+	  <td>		
+		<center>
+			<button href="#deletarEmail"  type="button" class="btn btn-danger btn-sm glyphicon glyphicon-trash" data-toggle="modal"></button>
+			<button href="#responderEmail"  type="button" class="btn btn-danger btn-sm glyphicon glyphicon-share-alt" data-toggle="modal"></button>
+		</center>
+	  </td>
+  </tr>
+  
+ <tr>
+      
+	  <td data-toggle="modal" data-target="#abrirEmail">
+		<center>Fernanda
+		</center>
+	  </td>
+      <td data-toggle="modal" data-target="#abrirEmail">
+		<center>Sono
+		</center>
+	  </td>
+      <td data-toggle="modal" data-target="#abrirEmail">
+		<center>16/09/2016 00:19
+		</center>
+	  </td>
+	  
+	  <td>		
+		<center>
+			<button href="#deletarEmail"  type="button" class="btn btn-danger btn-sm glyphicon glyphicon-trash" data-toggle="modal"></button>
+			<button href="#responderEmail"  type="button" class="btn btn-danger btn-sm glyphicon glyphicon-share-alt" data-toggle="modal"></button>
+		</center>
+	  </td>
+  </tr>
+  
+ <tr>
+      
+	  <td data-toggle="modal" data-target="#abrirEmail">
+		<center>Fernanda
+		</center>
+	  </td>
+      <td data-toggle="modal" data-target="#abrirEmail">
+		<center>Sono
+		</center>
+	  </td>
+      <td data-toggle="modal" data-target="#abrirEmail">
+		<center>16/09/2016 00:19
+		</center>
+	  </td>
+	  
+	  <td>		
+		<center>
+			<button href="#deletarEmail"  type="button" class="btn btn-danger btn-sm glyphicon glyphicon-trash" data-toggle="modal"></button>
+			<button href="#responderEmail"  type="button" class="btn btn-danger btn-sm glyphicon glyphicon-share-alt" data-toggle="modal"></button>
+		</center>
+	  </td>
+  </tr>
+  
+ <tr>
+      
+	  <td data-toggle="modal" data-target="#abrirEmail">
+		<center>Fernanda
+		</center>
+	  </td>
+      <td data-toggle="modal" data-target="#abrirEmail">
+		<center>Sono
+		</center>
+	  </td>
+      <td data-toggle="modal" data-target="#abrirEmail">
+		<center>16/09/2016 00:19
+		</center>
+	  </td>
+	  
+	  <td>		
+		<center>
+			<button href="#deletarEmail"  type="button" class="btn btn-danger btn-sm glyphicon glyphicon-trash" data-toggle="modal"></button>
+			<button href="#responderEmail"  type="button" class="btn btn-danger btn-sm glyphicon glyphicon-share-alt" data-toggle="modal"></button>
+		</center>
+	  </td>
+  </tr>
+  
+ <tr>
+      
+	  <td data-toggle="modal" data-target="#abrirEmail">
+		<center>Fernanda
+		</center>
+	  </td>
+      <td data-toggle="modal" data-target="#abrirEmail">
+		<center>Sono
+		</center>
+	  </td>
+      <td data-toggle="modal" data-target="#abrirEmail">
+		<center>16/09/2016 00:19
+		</center>
+	  </td>
+	  
+	  <td>		
+		<center>
+			<button href="#deletarEmail"  type="button" class="btn btn-danger btn-sm glyphicon glyphicon-trash" data-toggle="modal"></button>
+			<button href="#responderEmail"  type="button" class="btn btn-danger btn-sm glyphicon glyphicon-share-alt" data-toggle="modal"></button>
+		</center>
+	  </td>
+  </tr>
+  
+ <tr>
+      
+	  <td data-toggle="modal" data-target="#abrirEmail">
+		<center>Fernanda
+		</center>
+	  </td>
+      <td data-toggle="modal" data-target="#abrirEmail">
+		<center>Sono
+		</center>
+	  </td>
+      <td data-toggle="modal" data-target="#abrirEmail">
+		<center>16/09/2016 00:19
+		</center>
+	  </td>
+	  
+	  <td>		
+		<center>
+			<button href="#deletarEmail"  type="button" class="btn btn-danger btn-sm glyphicon glyphicon-trash" data-toggle="modal"></button>
+			<button href="#responderEmail"  type="button" class="btn btn-danger btn-sm glyphicon glyphicon-share-alt" data-toggle="modal"></button>
+		</center>
+	  </td>
+  </tr>
+ </table>
+</div><br /><br />
+
+
+	<div class="modal fade" id="escreverEmail" role="dialog">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content" style="background-color: gainsboro; background-size: cover;">
+						<div class="modal-header"  style="background-color: #262626;">
+									<label style="color:white;font-size:18px">Email</label>
+							<button type="button" class="close" data-dismiss="modal"
+								style="font-size: medium;">
+								x</button>
+							<h4 class="modal-title"
+							 style="font-size: large;"></h4>
+						</div>
+						<div class="modal-body" >
+							<form method="post" action=""
+								class="form-group">
+
+
+								<label for="destinatario"
+									style="  font-familyfont-size: large;">Destinatário:</label>
+								<input type="text" name="destinatarioEnvio" id="destinatarioEnvio"
+									title="Insira destinatario"
+									class="form-control"> <br/>
+								<br /> <label for="assunto">Assunto:</label>
+								<input type="text" name="assuntoEnvio" id="assuntoEnvio"
+									title="Insira assunto"
+									class="form-control"> <br/>
+									<br /> <label for="msg">Mensagem:</label>
+								<textarea type="text" rows="8" cols="10" name="msgEnvio" id="msgEnvio"
+									title="Insira mensagem"
+									class="form-control"></textarea> <br/>
+								<br /> <input type="submit" value="Enviar"
+									class="btn btn-primary">
+								
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			<div class="modal fade" id="abrirEmail" role="dialog">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content" style="background-color: gainsboro; background-size: cover;">
+						<div class="modal-header"  style="background-color: #262626;">
+									<label style="color:white;font-size:18px">Email</label>
+							<button type="button" class="close" data-dismiss="modal"
+								style="font-size: medium;">
+								x</button>
+							<h4 class="modal-title"
+							 style="font-size: large;"></h4>
+						</div>
+						<div class="modal-body" >
+							<form method="post" action=""
+								class="form-group">
+
+
+								<label for="destinatario"
+									style="  font-familyfont-size: large;">Destinatário:</label>
+								<input type="text" name="destinatarioEnvio" id="destinatarioEnvio"
+									placeholder="Insira destinatario" title="Insira destinatario"
+									class="form-control" value="Fernanda" disabled> <br/>
+								<br /> <label for="assunto">Assunto:</label>
+								<input type="text" name="assuntoEnvio" id="assuntoEnvio"
+									placeholder="Insira assunto" title="Insira assunto"
+									class="form-control" value="Sono,Muito" disabled> <br/>
+									<br /> <label for="msg">Mensagem:</label>
+								<textarea rows="8" cols="10" type="text" name="msg" id="msg"
+									class="form-control" disabled>Silvio Santos Ipsum qual é a musicamm? Ma não existem mulher feiam, existem mulher que não conhece os produtos Jequitiamm. Ma vai pra lá. Wellintaaammmmmmmmm. Um, dois três, quatro, PIM, entendeuam? É namoro ou amizadeemm? Ma vale dérreaisam? Mah você mora com o papai ou com a mamãem? Mah você mora com o papai ou com a mamãem? Estamos em ritmo de festamm. Ma quem quer dinheiroam? Mah roda a roduamm. Vem pra lá, mah você vai pra cá. Agora vai, agora vem pra láamm. Patríciaaammmm... Luiz Ricardouaaammmmmm.
+
+ Ma! Ao adquirir o carnê do Baú, você estará concorrendo a um prêmio de cem mil reaisam. Ma vale dérreaisam? Estamos em ritmo de festamm. Ma você está certo dissoam? Ma você está certo dissoam? É namoro ou amizadeemm? Ma vejam só, vejam só. Um, dois três, quatro, PIM, entendeuam? Boca sujuam... sem vergonhuamm.
+
+ Qual é a musicamm? Ma tem ou não tem o celular do milhãouamm? É com você Lombardiam. Qual é a musicamm? Eu só acreditoammmm.... Vendoammmm. É dinheiro ou não éam? Eu só acreditoammmm.... Vendoammmm. É dinheiro ou não éam?
+
+ Mah você não consegue né Moisés? Você não consegueam. Ma não existem mulher feiam, existem mulher que não conhece os produtos Jequitiamm. Ma vale dérreaisam? Ma você, topa ou não topamm. O arriscam tuduam, valendo um milhão de reaisuam. Ma quem quer dinheiroam? Mah roda a roduamm. Você veio da caravana de ondeammm? Ma vejam só, vejam só. É por sua conta e riscoamm? Ma quem quer dinheiroam? Um, dois três, quatro, PIM, entendeuam?
+
+ Mah você não consegue né Moisés? Você não consegueam. Vem pra lá, mah você vai pra cá. Agora vai, agora vem pra láamm. O arriscam tuduam, valendo um milhão de reaisuam. Qual é a musicamm? O Raul Gil é gayam! ... Maa O Ah Ae! Ih Ih! O Raul Gil é gayamm! Wellintaaammmmmmmmm. Vem pra lá, mah você vai pra cá. Agora vai, agora vem pra láamm. Ma vai pra lá. Ma você está certo dissoam? Qual é a musicamm? Estamos em ritmo de festamm. <br/>
+								</textarea>
+								<br /> <button type="submit" value="Responder"
+									class="btn btn-primary" data-dismiss="modal" data-target="#responderEmail" data-toggle="modal" >Responder</button>
+								
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="deletarEmail" role="dialog">
+				<div class="modal-dialog modal-sm">
+					<div class="modal-content" style="background-color: gainsboro; background-size: cover;">
+						<div class="modal-header"  style="background-color: #262626;">
+									<label style="color:white;font-size:18px">Deseja Deletar?</label>
+							<button type="button" class="close" data-dismiss="modal"
+								style="font-size: medium;">
+								x</button>
+							<h4 class="modal-title"
+							 style="font-size: large;"></h4>
+						</div>
+						<div class="modal-body" >
+							<form method="post" action=""
+								class="form-group">
+								<center>
+									<button type="button" class="btn btn-danger">Sim</button>								
+									<button type="button" class="btn btn-default" data-dismiss="modal">Não</button>								
+								</center>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="modal fade" id="sincronizarEmail" role="dialog">
+				<div class="modal-dialog modal-sm">
+					<div class="modal-content" style="background-color: gainsboro; background-size: cover;">
+						<div class="modal-header"  style="background-color: #262626;">
+									<label style="color:white;font-size:18px">Deseja Sincronizar?</label>
+							<button type="button" class="close" data-dismiss="modal"
+								style="font-size: medium;">
+								x</button>
+							<h4 class="modal-title"
+							 style="font-size: large;"></h4>
+						</div>
+						<div class="modal-body" >
+							<form method="post" action=""
+								class="form-group">
+								<center>
+									<button type="button" class="btn btn-danger">Sim</button>								
+									<button type="button" class="btn btn-default" data-dismiss="modal">Não</button>								
+								</center>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+ 
+ 
+ 	
+			<div class="modal fade" id="responderEmail" role="dialog">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content" style="background-color: gainsboro; background-size: cover;">
+						<div class="modal-header"  style="background-color: #262626;">
+									<label style="color:white;font-size:20px">Email</label>
+							<button type="button" class="close" data-dismiss="modal"
+								style="font-size: medium;">
+								x</button>
+							<h4 class="modal-title"
+							 style="font-size: large;"></h4>
+						</div>
+						<div class="modal-body" >
+							<form method="post" action=""
+								class="form-group">
+
+
+								<label for="destinatario"
+									style="  font-familyfont-size: large;">Destinatário:</label>
+								<input type="text" name="destinatarioResponder" id="destinatarioResponder"
+									class="form-control" value="Fernanda" disabled> <br/>
+								<br /> <label for="assunto">Assunto:</label>
+								<input type="text" name="assuntoResponder" id="assuntoResponder"
+									class="form-control" value="RE:Sono" > <br/>
+									<br /> <label for="msg">Mensagem:</label>
+									
+									<textarea  rows="8" cols="10" type="text" name="msgResponder" id="msgResponder"
+									class="form-control" >
+									</textarea> <br /> 
+								<button type="submit" value="Enviar"
+									class="btn btn-primary" data-dismiss="modal">
+									Enviar
+								</button>
+								
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="deletarEmail" role="dialog">
+ </body>
+</html>
